@@ -32,6 +32,14 @@ _platform_map = {
             {"name": "hummer-24811-sun-overlay.dtbo"},
         ],
     },
+    "qcs610": {
+        "dtb_list": [
+
+        ],
+        "dtbo_list": [
+
+        ],
+    },
     "tuna": {
         "dtb_list": [
 
@@ -50,6 +58,11 @@ _platform_map = {
             {
 
             },
+        ],
+    },
+    "parrot-tuivm": {
+        "dtb_list": [
+            # keep sorted
         ],
     },
     "sun-tuivm": {
@@ -105,6 +118,14 @@ _platform_map = {
 
          ],
    },
+    "sdxkova.cpe.wkk": {
+        "dtb_list": [
+
+        ],
+        "dtbo_list": [
+
+        ],
+    },
 }
 
 def _get_dtb_lists(target, dt_overlay_supported):
