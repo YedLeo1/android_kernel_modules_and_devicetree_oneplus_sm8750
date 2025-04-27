@@ -41,6 +41,14 @@ _platform_map = {
         ],
         "binary_compatible_with": ["tuna", "kera"],
     },
+    "qcs610": {
+        "dtb_list": [
+
+        ],
+        "dtbo_list": [
+
+        ],
+    },
     "tuna": {
         "dtb_list": [
             {"name": "tuna.dtb"},
@@ -62,6 +70,11 @@ _platform_map = {
             },
         ],
         "dtbo_list": [
+        ],
+    },
+    "parrot-tuivm": {
+        "dtb_list": [
+            # keep sorted
         ],
     },
     "sun-tuivm": {
@@ -117,6 +130,14 @@ _platform_map = {
 
          ],
    },
+    "sdxkova.cpe.wkk": {
+        "dtb_list": [
+
+        ],
+        "dtbo_list": [
+
+        ],
+    },
 }
 
 def _get_dtb_lists(target, dt_overlay_supported):
