@@ -81,7 +81,7 @@
 			oplus,gauge_ic = <&oplus_adsp_gauge &oplus_ext_gauge>;
 			oplus,gauge_ic_index = <0 1>;
 			oplus,gauge_ic_func_group = <&adsp_gauge_groups &bq27541_groups>;
-			oplus,batt_capacity_mah = <5850>;
+			oplus,batt_capacity_mah = <6260>;
 			oplus,ic_type = <OPLUS_CHG_IC_VIRTUAL_GAUGE>;
 			oplus,ic_index = <0>;
 
