@@ -6223,9 +6223,9 @@ static int oplus_vooc_parse_dt(struct oplus_chg_vooc *chip)
 		if (rc != SILICON_VOOC_SOC_RANGE_NUM) {
 			chg_err("oplus_spec,silicon_vooc_soc_range reading failed, rc=%d use default range\n", rc);
 
-#define VOOC_SILICON_DEFAULT_SOC_RANGE_1 20
-#define VOOC_SILICON_DEFAULT_SOC_RANGE_2 35
-#define VOOC_SILICON_DEFAULT_SOC_RANGE_3 55
+#define VOOC_SILICON_DEFAULT_SOC_RANGE_1 40
+#define VOOC_SILICON_DEFAULT_SOC_RANGE_2 60
+#define VOOC_SILICON_DEFAULT_SOC_RANGE_3 70
 #define VOOC_SILICON_DEFAULT_SOC_RANGE_4 75
 #define VOOC_SILICON_DEFAULT_SOC_RANGE_5 85
 
